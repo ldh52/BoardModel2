@@ -18,7 +18,7 @@
 - User.java: 사용자 정보를 담는 모델 클래스
 - MemberVO.java: 회원 가입 폼 데이터를 담는 VO 클래스
 - FormProc.java: 회원 가입 폼 데이터 처리 (현재는 UserService에 통합된 상태)
-- 
+
 # JSP 페이지 (View)
 - index.jsp: 게시판 메인 페이지 (로그인, 회원가입, 게시글 목록, 게시글 입력 링크 포함)
 - boardList.jsp: 게시글 목록 페이지
