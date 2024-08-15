@@ -16,11 +16,11 @@
 - UserDAO.java: 사용자 관련 데이터베이스 작업 처리
 - Board.java: 게시글 정보를 담는 모델 클래스
 - User.java: 사용자 정보를 담는 모델 클래스
-- MemberVO.java: 회원 가입 폼 데이터를 담는 VO 클래스 (선택 사항)
-
+- MemberVO.java: 회원 가입 폼 데이터를 담는 VO 클래스
+- FormProc.java: 회원 가입 폼 데이터 처리 (현재는 UserService에 통합된 상태)
+- 
 # JSP 페이지 (View)
-
-- index.jsp: 게시판 메인 페이지
+- index.jsp: 게시판 메인 페이지 (로그인, 회원가입, 게시글 목록, 게시글 입력 링크 포함)
 - boardList.jsp: 게시글 목록 페이지
 - boardDetail.jsp: 게시글 상세 페이지
 - boardAddForm.jsp: 게시글 작성 페이지
@@ -30,3 +30,5 @@
 - profile.jsp: 프로필 페이지 (선택 사항)
 - edit.jsp: 프로필 수정 페이지 (선택 사항)
 - error.jsp: 에러 페이지 (선택 사항)
+- checkDuplicate.jsp: 아이디 중복 확인 페이지 (선택 사항, UserService에 통합 가능)
+- logout.jsp: 로그아웃 처리 페이지 (현재는 index.jsp에 통합된 상태)
