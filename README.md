@@ -5,7 +5,7 @@
 - JSP 고쳐서 사용<br>
 - DAO 그대로 사용<br>
 - VO 그대로 사용<br>
-- BoardModel2_CodeList 참조<br>
+- BoardModel2_CodeList 참조<br><br>
 
 
 
@@ -24,7 +24,7 @@
 String[] token = uri.split("/"); // [, Myproject, book, detail, 3]<br><br>
 
 int len = token.length;<br>
-path = Arrays.copyofRange(token, 3, len); // [detail, 3]<br>
+path = Arrays.copyofRange(token, 3, len); // [detail, 3]<br><br>
 
 # RESTful
 + URI, (GET, POST, PUT, DELETE)<br>
