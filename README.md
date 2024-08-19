@@ -26,7 +26,7 @@
 - boardUpdate.jsp: 게시글 수정 페이지
 - login.jsp: 로그인 페이지
 - register.jsp: 회원가입 페이지
-
+<br>
 # 모델 2 : BookServlet, BookService, BookDAO, Book<br>
 + JSP는 View 역할만 하도록(비즈니스 로직은 모두 SVC 레이어에 포함)<br>
 + cmd 파라미터 방식이 아닌, 요청 URI를 분석하여 서버 로직이 분기되도록 한다.<br>
