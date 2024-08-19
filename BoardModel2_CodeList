@@ -24,15 +24,15 @@
         doGet(), doPost() 메서드: service() 메서드로 요청 전달
 
 3. JSP 파일
-    가. /board/boardList.jsp: 게시글 목록을 표시하는 뷰 페이지
+    가. boardList.jsp: 게시글 목록을 표시하는 뷰 페이지
         boardList 속성을 사용하여 게시글 목록 출력
-    나. /board/boardDetail.jsp: 특정 게시글의 상세 내용을 표시하는 뷰 페이지
+    나. boardDetail.jsp: 특정 게시글의 상세 내용을 표시하는 뷰 페이지
         board 속성을 사용하여 게시글 정보 출력
-    다. /board/boardAddForm.jsp: 새 게시글 작성 폼을 표시하는 뷰 페이지
-    라. /board/boardUpdate.jsp: 게시글 수정 폼을 표시하는 뷰 페이지
+    다. boardAddForm.jsp: 새 게시글 작성 폼을 표시하는 뷰 페이지
+    라. boardUpdate.jsp: 게시글 수정 폼을 표시하는 뷰 페이지
         board 속성을 사용하여 기존 게시글 정보 출력
-    마. /board/index.jsp: 게시판 메인 페이지 (홈 페이지)
-    바. /join/loginForm.jsp: 로그인 폼을 표시하는 뷰 페이지
+    마. index.jsp: 게시판 메인 페이지 (홈 페이지)
+    바. loginForm.jsp: 로그인 폼을 표시하는 뷰 페이지
     사. addProc.jsp: 새 게시글 추가 처리를 담당하는 JSP 페이지
         board 객체를 사용하여 데이터베이스에 게시글 추가
     아. updateProc.jsp: 게시글 수정 처리를 담당하는 JSP 페이지
