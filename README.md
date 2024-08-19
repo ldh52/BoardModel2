@@ -34,6 +34,7 @@
 + json-simple 라이브러리를 사용하여 JSON 생성/응답<br>
 + Model2BookCart 프로젝트 생성<br>
 + 서블릿 이름으로 끝나는 요청인 경우에는 bookIndex.jsp가 표시되도록 한다.<br>
++ 요청 URI가 서블릿 이름으로 끝나면 bookIndex.jsp를 보여준다.<br>
 
 
 * uri에서 요청을 인식하는 예(http://localhost/Myproject/book/detail/3)<br>
