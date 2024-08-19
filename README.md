@@ -38,7 +38,7 @@
 * uri에서 요청을 인식하는 예(http://localhost/Myproject/book/detail/3)<br>
 * String uri= request.getRequestURI();<br><br>
 
-String[] = token = uri.split("/"); // [, Myproject, book, detail, 3]<br><br>
+String[] token = uri.split("/"); // [, Myproject, book, detail, 3]<br><br>
 
 int len = token.length;<br>
 path = Arrays.copyofRange(token, 3, len); // [detail, 3]<br>
