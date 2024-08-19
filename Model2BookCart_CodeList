@@ -1,25 +1,25 @@
 Model2BookCart 프로젝트 Java, Servlet, JSP 코드 리스트
 
-Java
-1. BookServlet.java: 모든 요청 처리, URI 분석, 로직 분기
-2. BookService.java: 비즈니스 로직 처리 (DAO 활용)
-3. BookDAO.java: 데이터베이스 연동 (JDBC 등 활용)
-4. Book.java: 책 정보 VO
-5. BookCart.java: 장바구니 기능 (책 추가, 삭제, 수량 변경, 총 가격 계산 등)
+1. Java
+    가. BookServlet.java: 모든 요청 처리, URI 분석, 로직 분기
+    나. BookService.java: 비즈니스 로직 처리 (DAO 활용)
+    다. BookDAO.java: 데이터베이스 연동 (JDBC 등 활용)
+    라. Book.java: 책 정보 VO
+    마. BookCart.java: 장바구니 기능 (책 추가, 삭제, 수량 변경, 총 가격 계산 등)
 
-Servlet
-1. BookServlet:
-/book/* 패턴의 모든 요청 처리
-URI 분석 및 BookService 메소드 호출
-JSON 응답 또는 JSP 포워딩
+2. Servlet
+    가. BookServlet:
+        /book/* 패턴의 모든 요청 처리
+        URI 분석 및 BookService 메소드 호출
+        JSON 응답 또는 JSP 포워딩
 
-JSP
-1. bookIndex.jsp: 메인 페이지 (책 목록, 검색, 추가 버튼)
-2. bookList.jsp: 책 목록 페이지
-3. bookDetail.jsp: 책 상세 정보 페이지 (장바구니 담기 기능 포함)
-4. bookInsert.jsp: 책 추가 페이지
-5. bookUpdate.jsp: 책 수정 페이지
-6. cart.jsp: 장바구니 페이지 (수량 변경, 삭제, 주문 기능 포함)
-7. order.jsp: 주문 페이지 (주문 정보 확인, 주문 처리)
-8. showCart.jsp: 장바구니 미리보기
-9. error.jsp: 오류 페이지
+3. JSP
+    1. bookIndex.jsp: 메인 페이지 (책 목록, 검색, 추가 버튼)
+    2. bookList.jsp: 책 목록 페이지
+    3. bookDetail.jsp: 책 상세 정보 페이지 (장바구니 담기 기능 포함)
+    4. bookInsert.jsp: 책 추가 페이지
+    5. bookUpdate.jsp: 책 수정 페이지
+    6. cart.jsp: 장바구니 페이지 (수량 변경, 삭제, 주문 기능 포함)
+    7. order.jsp: 주문 페이지 (주문 정보 확인, 주문 처리)
+    8. showCart.jsp: 장바구니 미리보기
+    9. error.jsp: 오류 페이지
