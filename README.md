@@ -1,4 +1,4 @@
-# 모델1 게시판 프로젝트 -> 모델2 변환
+# 모델1 게시판 프로젝트 -> 모델2(BoardModel2) 변환
 - JSP에서 EL, JSTL 사용<br>
 - Servlet 추가<br>
 - Service 추가<br>
