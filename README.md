@@ -42,3 +42,12 @@ String[] token = uri.split("/"); // [, Myproject, book, detail, 3]<br><br>
 
 int len = token.length;<br>
 path = Arrays.copyofRange(token, 3, len); // [detail, 3]<br>
+
+# RESTful
++ URI, (GET, POST, PUT, DELETE)<br>
++ GET : 서버 -> 클라이언트 가져오기 위한 요청(서버로 전달하는 데이터량은 상대적으로 적다)<br>
++ POST : 클라이언트 -> 서버로 데이터를 보내기 위한 요청(서버로 양이 많은 데이터가 전달)<br>
++ PUT : Update<br>
++ DELETE : Delete<br>
++ Create(POST), Read(GET), Update(PUT), Delete(DELETE)
+
