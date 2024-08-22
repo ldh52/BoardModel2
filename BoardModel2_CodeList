@@ -21,7 +21,7 @@
 2. Servlet
     가. BoardServlet.java: 모든 게시판 관련 요청을 처리하는 컨트롤러 서블릿
         service() 메서드: 사용자 요청을 받아 BoardService 객체 생성 및 process() 메서드 호출
-        doGet(), doPost() 메서드: service() 메서드로 요청 전달
+        doGet(), doPost() 메서드: service() 메서드로 요청 전달... 하나로 통합 예정
 
 3. JSP 파일
     가. boardList.jsp: 게시글 목록을 표시하는 뷰 페이지
